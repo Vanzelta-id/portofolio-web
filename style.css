@@ -1,0 +1,37 @@
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(0, 0, 0);               /* Teks putih */
+    padding: 20px;                /* Spasi di dalam kotak */
+    text-align: center;           /* Teks berada di tengah */
+    border-radius: 10px;          /* Sudut kotak melengkung (opsional) */
+    width: fit-content;           /* Ukuran kotak menyesuaikan teks */
+    margin: 20px auto;            /* Posisi di tengah halaman */
+}
+
+nav ul {
+    list-style-type: none; /*hapus titik list*/
+    padding: 0;            
+    margin: 0;
+    display: flex;         /*membuat menu horizontal*/
+    justify-content: center;    /*memusatkan menu*/
+}
+
+nav ul li {
+    margin: 0 15px; /*Jarak antar menu*/
+}
+
+nav ul li a {
+    text-decoration: none;          /*hapus garis bawah*/
+    color: rgb(0, 0, 0);                 /*warna teks*/
+    font-family: Arial,sans-serif;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #1eff31; /*warna background pas hover*/
+    border-radius: 5px;
+}
+
+
