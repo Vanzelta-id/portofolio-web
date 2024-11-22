@@ -1,2 +1,2 @@
 # portofolio-web
-my portofolio website
+Lagi nyoba bikin web buat portofolio pribadi
